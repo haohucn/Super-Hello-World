@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var helloLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +22,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonDidClick(_ sender: Any) {
+        helloLabel.text = "Super Hello, world"
+    }
 }
 
