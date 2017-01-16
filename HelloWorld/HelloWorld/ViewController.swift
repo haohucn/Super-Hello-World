@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func buttonDidClick(_ sender: Any) {
+        print("user clicked the button")
         helloLabel.text = "Super Hello, world."
     }
 }
